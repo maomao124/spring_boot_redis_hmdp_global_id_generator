@@ -1,0 +1,20 @@
+2022-05-14 22:43:22.973  INFO 14548 --- [restartedMain] ootRedisHmdpGlobalIdGeneratorApplication : Starting SpringBootRedisHmdpGlobalIdGeneratorApplication using Java 16.0.2 on mao with PID 14548 (H:\程序\大三下期\spring_boot_redis_hmdp全局id生成器\target\classes started by mao in H:\程序\大三下期\spring_boot_redis_hmdp全局id生成器)
+2022-05-14 22:43:22.974 DEBUG 14548 --- [restartedMain] ootRedisHmdpGlobalIdGeneratorApplication : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-14 22:43:22.974  INFO 14548 --- [restartedMain] ootRedisHmdpGlobalIdGeneratorApplication : The following 1 profile is active: "dev"
+2022-05-14 22:43:23.008  INFO 14548 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-14 22:43:23.009  INFO 14548 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-14 22:43:23.563  INFO 14548 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-14 22:43:23.565  INFO 14548 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-14 22:43:23.589  INFO 14548 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2022-05-14 22:43:24.068  INFO 14548 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-14 22:43:24.075  INFO 14548 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-14 22:43:24.075  INFO 14548 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-14 22:43:24.136  INFO 14548 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-14 22:43:24.136  INFO 14548 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1126 ms
+2022-05-14 22:43:24.363  INFO 14548 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-14 22:43:24.459  INFO 14548 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-14 22:43:25.433  INFO 14548 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-14 22:43:25.484  INFO 14548 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-05-14 22:43:25.496  INFO 14548 --- [restartedMain] ootRedisHmdpGlobalIdGeneratorApplication : Started SpringBootRedisHmdpGlobalIdGeneratorApplication in 2.96 seconds (JVM running for 3.665)
+2022-05-14 22:43:30.638  INFO 14548 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-14 22:43:30.639  INFO 14548 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
