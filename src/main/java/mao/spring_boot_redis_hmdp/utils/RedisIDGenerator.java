@@ -39,6 +39,7 @@ public class RedisIDGenerator
 
     /**
      * 获取一个id
+     *
      * @param prefix 前缀
      * @return id
      */
@@ -53,7 +54,7 @@ public class RedisIDGenerator
         //格式化成字符串
         String format = now.format(DateTimeFormatter.ofPattern("yyyy:MM:dd"));
         //将key下存储为字符串值的整数值加一
-        Long count = stringRedisTemplate.opsForValue().increment("icr:" + prefix + ":" + format);
+        Long count = stringRedisTemplate.opsForValue().increment("id:" + prefix + ":" + format);
         return time << COUNT_BITS | count;
     }
 
